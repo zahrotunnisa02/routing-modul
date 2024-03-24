@@ -1,0 +1,12 @@
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+.dropdown-item:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}

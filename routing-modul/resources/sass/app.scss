@@ -1,0 +1,23 @@
+// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+
+.dropdown-item:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
